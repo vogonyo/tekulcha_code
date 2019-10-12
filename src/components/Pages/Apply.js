@@ -2,7 +2,7 @@ import React, { Component }  from 'react';
 import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 const FormStyles = {
-  scrollbarWidth: 'none',
+  scrollbarWidth: '1px',
   minHeight: '70vh',
   marginBottom: '2em'
 }
@@ -26,7 +26,7 @@ class Apply extends Component {
           <div className="col-md-2 col-lg-2 col-sm-12"></div>
         </div>
         <div className="row my-5">
-          <div className="col-md-12 col-lg-12">
+          <div className="col-md-12 col-lg-12 col-sm-12">
               <ReactTypeformEmbed
                 popup={false}
                 autoOpen={false}
