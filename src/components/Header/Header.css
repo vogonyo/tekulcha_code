@@ -1,0 +1,21 @@
+.header-nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.solution-header{
+    background-color: teal;
+    width: 100% !important;
+    padding: 1.3em !important;
+    color: #ffff !important;
+}
+
+.solution-item{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 1.3em;
+
+}
+.solution-item:hover{
+    color: #28b485;
+}

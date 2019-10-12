@@ -1,0 +1,64 @@
+.footerbg{
+    /* background: #7ed56f; */
+     background-image: linear-gradient(
+        to right bottom,
+        rgba(126,213,111, 0.8),
+         rgba(40,180,133, 0.8));
+    
+}
+.header-secondary{
+    text-transform: uppercase;
+    font-size: .9rem !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color:white !important;
+}
+.copyright{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.list-group-item{
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent !important;
+    border:none !important;
+    color: #333647;
+    font-size: 1.0rem;
+    white-space: nowrap;
+    line-height: 1.2rem;
+}
+.list-group-item:hover{
+    color:#696969 !important;
+    cursor: pointer;
+}
+.footer-copy{
+    color:#333647;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+
+.footer-text{
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.0rem;
+}
+.footer-hightlighted{
+    font-weight: 600;
+}
+.footer-social__link{
+    color: #000000;
+}
+.footer-social__link:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.scroller__top a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #d3d3d3!important;
+    font-weight: 600;
+    font-size: 1.7em;
+}

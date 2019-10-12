@@ -1,0 +1,37 @@
+.cardui{
+    width: 20rem;
+
+}
+.card{
+    border: none !important;
+}
+
+.cardui:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+    cursor: pointer;
+}
+.cardui-body{
+    padding: 3rem 0 !important;
+}
+.card-description{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: .9rem ;
+}
+.img_style{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.img_style:hover{
+    transform: scale(1.8);
+}
+.img-overflow{
+    overflow: hidden;
+}
+.btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
