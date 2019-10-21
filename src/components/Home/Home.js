@@ -14,6 +14,15 @@ import Remote2 from '../static/images/remote2.png';
 import Remote3 from '../static/images/remote3.png';
 import Remote4 from '../static/images/remote4.png';
 
+const cardStyle = {
+  background: '#FFEACC',
+  height: '10vh',
+  fontWeight: 'bolder',
+  color: 'blue',
+  fontFamily: 'monospace',
+  border: 'solid #000 100px',
+  fontSize: '1.4rem'
+};
 const Home = () => {
   return(
     <div>
@@ -39,9 +48,75 @@ const Home = () => {
       </div>
       </Jumbotron>
       </div>
-      <div className="container-fluid card text-white world">
-      <h6 className="card-text text-dark text-center card-text text-muted pt-5 world-text blockquote display-4">Tekulcha connects businesses to the Top 1% Elite Freelancers in Africa and the World</h6>
-        <img className="" src={World} alt="Collected pool of talent worldwide"></img>
+      <div className="container card text-white world border-0">
+      <h6 className="card-text text-dark text-center card-text text-muted pt-5 world-text blockquote display-4">Tekulcha links people and businesses to Top Elite Freelancers in Africa and the World</h6>
+        <img className="img-fluid" src={World} height="30%" alt="Collected pool of talent worldwide"></img>
+     </div>
+     <div className="container">
+       <div className="row py-3">
+          <div className="col-md-4"></div>
+          <div className="col-md-4 h3"><u>Curated Services</u></div>
+          <div className="col-md-4"></div>
+       </div>
+       <div className="row">
+               <div className="col-md-1 col-lg-1"></div>
+               <div className="col-md-10 col-lg-10">
+                 <div className="row">
+               <div className="card col-md-4 col-sm-12 col-lg-3 m-1 border-0 rounded-0" style={cardStyle}>UX/UI Design 
+                         <div className="row">
+                          <div className="col"></div>
+                          <div className="col"></div>
+                          <div className="col"><span className="badge badge-pill badge-warning"><ion-icon name="arrow-round-forward"></ion-icon></span></div>
+                         </div>
+          </div>
+          <div className="card col-md-4 col-sm-12 col-lg-3 m-1 border-0 rounded-0" style={cardStyle}>Wordpress Support
+                         <div className="row">
+                          <div className="col"></div>
+                          <div className="col"></div>
+                          <div className="col"><span className="badge badge-pill badge-warning"><ion-icon name="arrow-round-forward"></ion-icon></span></div>
+                         </div>
+          </div>
+          <div className="card col-md-4 col-sm-12 col-lg-3 m-1 border-0 rounded-0" style={cardStyle}>App Development
+                         <div className="row">
+                          <div className="col"></div>
+                          <div className="col"></div>
+                          <div className="col"><span className="badge badge-pill badge-warning"><ion-icon name="arrow-round-forward"></ion-icon></span></div>
+                         </div>
+          </div>
+          <div className="card col-md-4 col-sm-12 col-lg-3 m-1 border-0 rounded-0" style={cardStyle}>Data Analysis
+                         <div className="row">
+                          <div className="col"></div>
+                          <div className="col"></div>
+                          <div className="col"><span className="badge badge-pill badge-warning"><ion-icon name="arrow-round-forward"></ion-icon></span></div>
+                         </div>
+          </div>
+          <div className="card col-md-4 col-sm-12 col-lg-3 m-1 border-0 rounded-0" style={cardStyle}>Backend As A Service
+                         <div className="row">
+                          <div className="col"></div>
+                          <div className="col"></div>
+                          <div className="col"><span className="badge badge-pill badge-warning"><ion-icon name="arrow-round-forward"></ion-icon></span></div>
+                         </div>
+          </div>
+          <div className="card col-md-4 col-sm-12 col-lg-3 m-1 border-0 rounded-0" style={cardStyle}>Payment Integration
+                         <div className="row">
+                          <div className="col"></div>
+                          <div className="col"></div>
+                          <div className="col"><span className="badge badge-pill badge-warning"><ion-icon name="arrow-round-forward"></ion-icon></span></div>
+                         </div>
+          </div>
+          <div className="card col-md-4 col-sm-12 col-lg-3 m-1 border-0 rounded-0" style={cardStyle}>Remote Teams
+                         <div className="row">
+                          <div className="col"></div>
+                          <div className="col"></div>
+                          <div className="col"><span className="badge badge-pill badge-warning"><ion-icon name="arrow-round-forward"></ion-icon></span></div>
+                         </div>
+          </div>
+          </div>
+
+               </div>
+               <div className="col-md-1 col-lg-1"></div>
+          
+        </div>
      </div>
       <div className="container pb-5">
           <h2 className="heading-primary text-center pt-5">Our Core Values</h2>
