@@ -1,5 +1,5 @@
 # Functionalities 
-`- Using APIs use of typeform API
+ - Using APIs use of typeform API
  - ability to send messages interactively 
  - UI and UX design skills
  
